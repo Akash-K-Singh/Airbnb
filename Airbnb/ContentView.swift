@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Airbnb
-//
-//  Created by Shruti Makwana on 19/03/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
