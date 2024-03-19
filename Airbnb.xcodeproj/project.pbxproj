@@ -16,6 +16,7 @@
 		743C41CA2BA978EB0028C2C5 /* AirbnbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C41C92BA978EB0028C2C5 /* AirbnbUITestsLaunchTests.swift */; };
 		743C41E32BA97F9F0028C2C5 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C41E22BA97F9F0028C2C5 /* ExploreView.swift */; };
 		743C41E52BA98B480028C2C5 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C41E42BA98B480028C2C5 /* ListingItemView.swift */; };
+		743C41E72BA9A37A0028C2C5 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C41E62BA9A37A0028C2C5 /* SearchAndFilterBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		743C41C92BA978EB0028C2C5 /* AirbnbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		743C41E22BA97F9F0028C2C5 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		743C41E42BA98B480028C2C5 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		743C41E62BA9A37A0028C2C5 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				743C41E22BA97F9F0028C2C5 /* ExploreView.swift */,
+				743C41E62BA9A37A0028C2C5 /* SearchAndFilterBar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				743C41AF2BA978E90028C2C5 /* ContentView.swift in Sources */,
 				743C41E52BA98B480028C2C5 /* ListingItemView.swift in Sources */,
 				743C41AD2BA978E90028C2C5 /* AirbnbApp.swift in Sources */,
+				743C41E72BA9A37A0028C2C5 /* SearchAndFilterBar.swift in Sources */,
 				743C41E32BA97F9F0028C2C5 /* ExploreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
