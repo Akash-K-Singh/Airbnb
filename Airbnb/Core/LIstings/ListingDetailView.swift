@@ -100,7 +100,7 @@ struct ListingDetailView: View {
                 Text("Where you'll sleep")
                     .font(.headline)
                 ScrollView(.horizontal, showsIndicators: false){
-                    HStack(spacing: 16){
+                    HStack( spacing: 16){
                         ForEach(1 ..< 5){ bedroom in
                             VStack(alignment: .leading, spacing: 8){
                                 Image(systemName: "bed.double")
