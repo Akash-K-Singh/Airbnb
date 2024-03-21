@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741BA52F2BAC190C0086F2C9 /* ProfileOptionRowVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741BA52E2BAC190C0086F2C9 /* ProfileOptionRowVIew.swift */; };
+		741BA5312BAC19350086F2C9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741BA5302BAC19350086F2C9 /* ProfileView.swift */; };
+		741BA5332BAC1A020086F2C9 /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741BA5322BAC1A020086F2C9 /* WishListView.swift */; };
+		741BA5352BAC1A6D0086F2C9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741BA5342BAC1A6D0086F2C9 /* MainTabView.swift */; };
 		743107D82BAAA6420014D8F7 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743107D72BAAA6420014D8F7 /* ListingDetailView.swift */; };
 		743107DB2BAAA7F30014D8F7 /* ListingImageCorouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743107DA2BAAA7F30014D8F7 /* ListingImageCorouselView.swift */; };
 		743107DD2BAAC4020014D8F7 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743107DC2BAAC4010014D8F7 /* DestinationSearchView.swift */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		741BA52E2BAC190C0086F2C9 /* ProfileOptionRowVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowVIew.swift; sourceTree = "<group>"; };
+		741BA5302BAC19350086F2C9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		741BA5322BAC1A020086F2C9 /* WishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListView.swift; sourceTree = "<group>"; };
+		741BA5342BAC1A6D0086F2C9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		743107D72BAAA6420014D8F7 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		743107DA2BAAA7F30014D8F7 /* ListingImageCorouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCorouselView.swift; sourceTree = "<group>"; };
 		743107DC2BAAC4010014D8F7 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
@@ -224,6 +232,8 @@
 		743C41DE2BA97B0B0028C2C5 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				741BA52E2BAC190C0086F2C9 /* ProfileOptionRowVIew.swift */,
+				741BA5302BAC19350086F2C9 /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -231,6 +241,7 @@
 		743C41DF2BA97B1D0028C2C5 /* Wishlist */ = {
 			isa = PBXGroup;
 			children = (
+				741BA5322BAC1A020086F2C9 /* WishListView.swift */,
 			);
 			path = Wishlist;
 			sourceTree = "<group>";
@@ -238,6 +249,7 @@
 		743C41E02BA97B270028C2C5 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				741BA5342BAC1A6D0086F2C9 /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -381,12 +393,16 @@
 			files = (
 				743107DB2BAAA7F30014D8F7 /* ListingImageCorouselView.swift in Sources */,
 				743107DD2BAAC4020014D8F7 /* DestinationSearchView.swift in Sources */,
+				741BA5312BAC19350086F2C9 /* ProfileView.swift in Sources */,
 				743C41AF2BA978E90028C2C5 /* ContentView.swift in Sources */,
 				743C41E52BA98B480028C2C5 /* ListingItemView.swift in Sources */,
 				743C41AD2BA978E90028C2C5 /* AirbnbApp.swift in Sources */,
 				743C41E72BA9A37A0028C2C5 /* SearchAndFilterBar.swift in Sources */,
+				741BA5332BAC1A020086F2C9 /* WishListView.swift in Sources */,
+				741BA52F2BAC190C0086F2C9 /* ProfileOptionRowVIew.swift in Sources */,
 				743107D82BAAA6420014D8F7 /* ListingDetailView.swift in Sources */,
 				743C41E32BA97F9F0028C2C5 /* ExploreView.swift in Sources */,
+				741BA5352BAC1A6D0086F2C9 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
